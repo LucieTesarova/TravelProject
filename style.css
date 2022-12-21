@@ -6,7 +6,12 @@ body{
     margin: 0;
     padding: 0;
     font-size: 100%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
+
+/* STYLE NAVBAR */
 
 .Navbar{
     background-color: #F55A5A;
@@ -14,11 +19,70 @@ body{
 
 .Navbar--title{
     color: #FFFFFF;
-    font-size: 1.5rem;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
+    font-size: 1rem;
     font-weight: 500;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
 }
 
+/* STYLE JOURNEY */
+
+.Journey{
+    width: 50vw;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.Journey--image-container{
+    width: 50%;
+}
+
+.Journey--image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.Journey--country{
+    font-size: 0.8rem;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+
+.Journey--text-country-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 0.8rem;
+    margin: 0;
+}
+
+.Journey--map{
+    font-size: 0.8rem;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.Journey--title{
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #2B283A;
+    margin: 0;
+}
+
+.Journey--date{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #2B283A;
+    margin-top: 1.5rem;
+}
+
+.Journey--description{
+    font-size: 0.6rem;
+    line-height: 1.5;
+    color: #2B283A; 
+}

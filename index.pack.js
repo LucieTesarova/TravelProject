@@ -30484,10 +30484,19 @@ var _Navbar = __webpack_require__(16);
 
 var _Navbar2 = _interopRequireDefault(_Navbar);
 
+var _Journey = __webpack_require__(17);
+
+var _Journey2 = _interopRequireDefault(_Journey);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
-    return _react2.default.createElement(_Navbar2.default, null);
+    return _react2.default.createElement(
+        "div",
+        null,
+        _react2.default.createElement(_Navbar2.default, null),
+        _react2.default.createElement(_Journey2.default, null)
+    );
 }
 
 /***/ }),
@@ -30516,6 +30525,69 @@ function Navbar() {
             "h1",
             { className: "Navbar--title" },
             " Travel journal"
+        )
+    );
+}
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = Journey;
+
+var _react = __webpack_require__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Journey() {
+    return _react2.default.createElement(
+        "div",
+        { className: "Journey" },
+        _react2.default.createElement(
+            "div",
+            { className: "Journey--image-container" },
+            _react2.default.createElement("img", { className: "Journey--image", src: "./images/japonsko.jpg", alt: "photo from vaccation" })
+        ),
+        _react2.default.createElement(
+            "div",
+            { className: "Journey--text-container" },
+            _react2.default.createElement(
+                "div",
+                { className: "Journey--text-country-container" },
+                _react2.default.createElement(
+                    "p",
+                    { className: "Journey--country" },
+                    "Zeme"
+                ),
+                _react2.default.createElement(
+                    "a",
+                    { className: "Journey--map", href: "https://www.google.cz/maps/place/Fud%C5%BEi/" },
+                    "View on Google Maps"
+                )
+            ),
+            _react2.default.createElement(
+                "h1",
+                { className: "Journey--title" },
+                "Nazev"
+            ),
+            _react2.default.createElement(
+                "h3",
+                { className: "Journey--date" },
+                "Datum"
+            ),
+            _react2.default.createElement(
+                "p",
+                { className: "Journey--description" },
+                " popisekpopisekpopisekpopisekpopisek popisekpopisek popisekpopisek popisekpopisek popisek "
+            )
         )
     );
 }
