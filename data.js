@@ -1,29 +1,45 @@
 export default [
     {
-        title: "Mount Fuji",
-        location: "Japan",
-        googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
-        startDate: "12 Jan, 2021",
-        endDate: "24 Jan, 2021",
-        description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
+        title: "Matterhorn",
+        location: "Switzerland",
+        googleMapsUrl: "https://www.google.cz/maps/place/Matterhorn",
+        startDate: "18 Aug, 2022",
+        description: "The most majestic mountain I have ever seen...It is a phenomenal mountain at 4478 m above sea level! A great experience, you have to see it with your own eyes! But wait for the right weather :D",
+        imageUrl: "./images/Matterhorn.jpg"
     },
     {
-        title: "Sydney",
-        location: "Australia",
-        googleMapsUrl: "https://www.google.com/maps/place/Sydney",
-        startDate: "19 June, 2018",
-        endDate: "28 June, 2018",
-        description: "Sydney is the best town in Australia, it is a very cultivate city with a lot of interesting places. You never be bored in Sydney.",
-        imageUrl: "https://source.unsplash.com/JmuyB_LibRo"
+        title: "Piz Bernina",
+        location: "Switzerland",
+        googleMapsUrl: "https://www.google.com/maps/place/Piz+Bernina",
+        startDate: "20 Aug, 2022",
+        description: "Enjoying the biggest train journey of my life with the Bernina Express train. Just look out the window at the beautiful nature in Switzerland, especially the Piz Bernina mountain.",
+        imageUrl: "./images/Piz Bernina.jpg"
     },
     {
-        title: "Nusfojrd",
-        location: "Norway",
-        googleMapsUrl: "https://www.google.com/maps/place/8380+Nusfjord",
-        startDate: "08 Feb, 2015",
-        endDate: "17 Feb, 2015",
-        description: "Nusfojrd is a magic place. When you arrive there you feel like time is stopped. The nature is fenomenal, the people are so kind and the whole village seem very cute.",
-        imageUrl: "https://source.unsplash.com/3PeSjpLVtLg"
-    }
+        title: "Lake Como",
+        location: "Italy",
+        googleMapsUrl: "https://www.google.com/maps/place/22021+Bellagio",
+        startDate: "12 Jul, 2020",
+        description: "View of Lake Como from a beautiful villa in the town of Bellagio - Villa Melzi D'Eril. Feeling like a princess in a fairy tale...",
+        imageUrl: "./images/Como.jpg"
+    },
+    {
+        title: "Lugano",
+        location: "Switzerland",
+        googleMapsUrl: "https://www.google.cz/maps/place/Lugano",
+        startDate: "19 Aug, 2022",
+        description: "Lugano is a modern city where Swiss and Italian culture mix. Don't hesitate and try a delicious ice cream with a wonderful view of the lake.",
+        imageUrl: "./images/Lugano.jpg"
+    },
+
+    {
+        title: "Piz Nair",
+        location: "Switzerland",
+        googleMapsUrl: "https://www.google.cz/maps/place/Piz+Nair/",
+        startDate: "20 Aug, 2022",
+        description: "See the majestic ibex from Piz Nair mountain. You will have fun at this place. You can go on many walks in the mountain nature, then you can visit your own wonderful town of St. Moritz, where the people are so elegant, so don't forget to pack something nice for you :) ",
+        imageUrl: "./images/Piz Nair.jpg"
+    },
+  
+   
 ]
