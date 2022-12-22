@@ -36,12 +36,8 @@ body{
     border-bottom: 1px solid #F5F5F5;
 }
 
-.Journey--image-container{
-    width: 50%;
-}
-
 .Journey--image{
-    width: 100%;
+    width: 20vw;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
@@ -82,7 +78,7 @@ body{
 }
 
 .Journey--description{
-    font-size: 0.6rem;
+    font-size: 1rem;
     line-height: 1.5;
     color: #2B283A; 
 }
